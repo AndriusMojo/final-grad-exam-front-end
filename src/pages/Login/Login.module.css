@@ -1,0 +1,6 @@
+.loginPage {
+    background-image: url('../../../public/images/pexels-lumn-604969.jpg');
+    min-height: 100vh;
+    background-position: 40%;
+    margin: 0 auto;
+}

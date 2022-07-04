@@ -1,0 +1,20 @@
+.header {
+	background-color: rgb(255, 255, 255, 0.7);
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 0 10px #514242;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header:hover {
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 0 10px #514242;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+

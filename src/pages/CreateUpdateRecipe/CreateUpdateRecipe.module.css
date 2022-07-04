@@ -1,0 +1,30 @@
+.crupRecipePage {
+    background-image: url('../../../public/images/pexels-alleksana-4224314.jpg');
+    min-height: 100vh;
+    margin: 0 auto;
+
+}
+
+.crupRecipePage h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.createRecipeForm input {
+    height: 2em;
+    font-size: 1rem;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.createRecipeForm label {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.createRecipeForm textarea {
+    width: 80%;
+    height: 10rem;
+}

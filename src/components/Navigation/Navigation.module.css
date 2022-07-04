@@ -1,0 +1,140 @@
+.searchContainer > input.searchInput {
+	border-radius: 20px;
+	padding: 8px 16px;
+	margin-right: 10px;
+	border: 1px solid #f1f1f1;
+	font-size: 16px;
+}
+
+.searchButton,
+.navbarMenu {
+	text-decoration: none;
+	padding: 13px 20px;
+	font-size: 25px;
+	transition: all 0.3s;
+	display: none;
+}
+
+.navbarMenu:hover {
+	background-color: #f1f1f1;
+	color: #fff;
+	transition-delay: 2s;
+}
+
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	transition-delay: 2s;
+}
+
+.navbar > li {
+	padding: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.navbar > li:hover {
+	background-color: #ffeeee;
+}
+
+.navbar > li > a {
+	transition: color 0.3s;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.navbar > li:hover > a {
+	color: #fff;
+}
+
+.categoriesDropdown {
+	position: relative;
+}
+
+.categoriesList {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background-color: #ffffff;
+	box-shadow: 0 0 8px #514242;
+	z-index: 1;
+}
+
+.categoriesList a {
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+	transition: all 0.3s;
+	color: black;
+	font-weight: 600;
+}
+
+.categoriesList a:hover {
+	background-color: #ffffff;
+	color: #fff;
+}
+
+.categoriesDropdown:hover .categoriesList {
+	display: block;
+}
+
+.logoContainer {
+	max-width: 60px;
+}
+
+.logoContainer img {
+	width: 100%;
+}
+
+.logoutBtn {
+	background-color:  rgb(163, 105, 105);
+    border: 1px solid rgb(163, 105, 105);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.logoutBtn:hover {
+    background-color:  rgb(163, 105, 105, 0.7);
+	border: 1px solid rgb(163, 105, 105);
+	transition: 10ms;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+@media (max-width: 840px) {
+	.navbar {
+		flex-direction: column;
+		left: 0;
+		top: 55px;
+		position: absolute;
+		background-color: #ffffff;
+		box-shadow: 0 0 8px #514242;
+		z-index: 1;
+	}
+	
+	.navbar > li {
+		padding-right: 40px;
+	}
+	
+	.categoriesList {
+		left: 125px;
+		top: 0;
+		z-index: 2;
+	}
+	
+	.searchButton,
+	.navbarMenu {
+		display: initial;
+	}
+}

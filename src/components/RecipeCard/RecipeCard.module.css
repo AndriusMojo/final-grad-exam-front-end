@@ -1,0 +1,40 @@
+.recipeCard {
+	background-color: #fff;
+	box-shadow: 0 0 8px #514242;
+	border: 1px solid #fff;
+	margin: 2%;
+	cursor: pointer;
+	transition: box-shadow 0.3s;
+}
+
+.recipeCard:hover {
+	box-shadow: 0 0 10px 5px #b6b6b6;
+}
+
+.recipeCard > img {
+	width: 100%;
+}
+
+.recipeCard > .recipeCardTitle {
+	text-align: center;
+	font-weight: 600;
+	padding: 5px;
+}
+
+@media (max-width: 1024px) {
+	.recipeCard {
+		width: 100%;
+	}
+}
+
+@media (max-width: 840px) {
+	.recipeCard {
+		width: 90%;
+	}
+}
+
+@media (max-width: 600px) {
+	.recipeCard {
+		width: 90%;
+	}
+}

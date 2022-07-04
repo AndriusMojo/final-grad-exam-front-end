@@ -1,0 +1,27 @@
+.recipesPage {
+    background-image: url('../../../public/images/pexels-taryn-elliott-4099106.jpg');
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.recipesText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    max-width: 1200px;
+}
+
+.recipesText > h2 {
+    font-size: 4rem;
+}
+
+.recipesText > h4 {
+    font-size: 1.5rem;
+}

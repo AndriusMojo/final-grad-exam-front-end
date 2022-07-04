@@ -1,0 +1,43 @@
+.heroContainer {
+	background-image: url('../../../public/images/pexels-valeria-boltneva-1510693.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.heroContainer > .heroTextContainer {
+	background-color: rgba(0, 0, 0, 0.55);
+	box-shadow: 0 0 15px 5px #222;
+	width: 60%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.heroContainer > .heroTextContainer > h1 {
+	font-size: 90px;
+}
+
+.heroContainer > .heroTextContainer > h2 {
+	font-size: 26px;
+}
+
+.heroContainer > .heroTextContainer > h1,
+.heroContainer > .heroTextContainer > h2 {
+	color: #f1f1f1;
+	margin: 0;
+	padding: 20px;
+}
+
+@media (max-width: 840px) {
+	.heroContainer > .heroTextContainer {
+		width: 95%;
+	}
+}
